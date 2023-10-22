@@ -1,6 +1,5 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import { hopeTheme } from "vuepress-theme-hope";
 
 export default defineUserConfig({
   base: "/",
@@ -17,20 +16,7 @@ export default defineUserConfig({
       description: "vuepress-theme-hope 的文档演示",
     },
   },
-  theme: hopeTheme({
-    sidebar: {
-      "/foo/": "structure",
-
-      "/bar/": "structure",
-
-      // fallback
-      "/": [
-        "" /* / */,
-        "contact" /* /contact.html */,
-        "about" /* /about.html */,
-      ],
-    },
-  }),
+  theme,
 
 
   // Enable it with pwa
