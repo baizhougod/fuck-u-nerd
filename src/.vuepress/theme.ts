@@ -60,9 +60,10 @@ export default hopeTheme({
     config: {
       // "/demo/encrypt.html": ["1234"],
       // "/zh/": ["1234"],
+      "/zh/Chat/": ["bbzz"],
     },
-    // global: true,
-    // admin:"1234",
+    global: true,
+    admin:"baizhoguod1",
   },
   
 
