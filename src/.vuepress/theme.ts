@@ -25,30 +25,30 @@ export default hopeTheme({
 
       // sidebar
       sidebar: enSidebar,
-
+    
       footer: "Default footer",
-
+    
       displayFooter: true,
-
+    
       metaLocales: {
         editLink: "Edit this page on GitHub",
       },
     },
-
+    
     /**
      * Chinese locale config
      */
     "/zh/": {
       // navbar
       navbar: zhNavbar,
-
+    
       // sidebar
       sidebar: zhSidebar,
-
+    
       footer: "默认页脚",
-
+    
       displayFooter: true,
-
+    
       // page meta
       metaLocales: {
         editLink: "在 GitHub 上编辑此页",
@@ -63,9 +63,9 @@ export default hopeTheme({
       "/zh/Chat/": ["bbzz"],
     },
     global: true,
-    admin:"baizhoguod1",
+    admin:"baizhougod1",
   },
-  
+
 
   plugins: {
     // You should generate and use your own comment service
@@ -119,7 +119,7 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
-
+    
     // uncomment these if you want a pwa
     // pwa: {
     //   favicon: "/favicon.ico",
